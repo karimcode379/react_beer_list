@@ -17,7 +17,7 @@ const RandomBeer = () => {
     return (
         <article className="detailBeer">
             <div>
-                <img src={randomBeer.image_url} alt="" />
+                <img src={randomBeer.image_url} alt="beer" />
             </div>
             <h1>{randomBeer.name}</h1>
             <h4>{randomBeer.tagline}</h4>
@@ -30,7 +30,7 @@ const RandomBeer = () => {
                 <div>{randomBeer.attenuation_level}</div>
             </div>
             <p>{randomBeer.description}</p>
-            <Link className="button" to="/home"><img src={arrow} /></Link>
+            <Link className="button" to="/home"><img src={arrow} alt="arrow" /></Link>
 
         </article>
     );

@@ -13,7 +13,7 @@ const BeerDetail = () => {
     return (
         <article class="detailBeer">
             <div>
-                <img src={detail[0].image_url} alt="" />
+                <img src={detail[0].image_url} alt="beer" />
             </div>
             <h1>{detail[0].name}</h1>
             <h4>{detail[0].tagline}</h4>
@@ -26,7 +26,7 @@ const BeerDetail = () => {
                 <div>{detail[0].attenuation_level}</div>
             </div>
             <p>{detail[0].description}</p>
-            <Link className="button" to="/allbeers"><img src={arrow} /></Link>
+            <Link className="button" to="/allbeers"><img src={arrow} alt="arrow" /></Link>
 
         </article>
     );
